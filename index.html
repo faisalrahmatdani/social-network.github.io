@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/63c8b8fbd5.js" crossorigin="anonymous"></script>
+    <!--  -->
+    <title>Social.Network</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="nav-left">
+        <img src="img/logo.png" class="logo" />
+        <ul>
+          <li><img src="img/notification.png" alt="" /></li>
+          <li><img src="img/inbox.png" alt="" /></li>
+          <li><img src="img/video.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="img/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuTogle()">
+          <img src="img/profile-pic.png" alt="" />
+        </div>
+      </div>
+      <!-- settings menu -->
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="setting-menu-inner">
+          <div class="user-profile">
+            <img src="img/profile-pic.png" alt="" />
+            <div>
+              <p>Faisal Rahmatdani</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="img/feedback.png" alt="" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">For deserve more</a>
+            </div>
+          </div>
+          <hr />
+          <div class="setting-link">
+            <img src="img/setting.png" class="setting-icon" />
+            <a href="#">Setting & Privacy <img src="img/arrow.png" width="10px" /></a>
+          </div>
+          <div class="setting-link">
+            <img src="img/help.png" class="setting-icon" />
+            <a href="#">Help & Support <img src="img/arrow.png" width="10px" /></a>
+          </div>
+          <div class="setting-link">
+            <img src="img/display.png" class="setting-icon" />
+            <a href="#">Display & Accsessibility <img src="img/arrow.png" width="10px" /></a>
+          </div>
+          <div class="setting-link">
+            <img src="img/logout.png" class="setting-icon" />
+            <a href="#">Logout <img src="img/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- content -->
+
+    <div class="container">
+      <!-- left sidebar -->
+      <div class="left-sidebar">
+        <div class="imp-link">
+          <a href="#"><img src="img/news.png" alt="" />Latest News</a>
+          <a href="#"><img src="img/friends.png" alt="" />Friends</a>
+          <a href="#"><img src="img/group.png" alt="" />Group</a>
+          <a href="#"><img src="img/marketplace.png" alt="" />Marketplace</a>
+          <a href="#"><img src="img/watch.png" alt="" />Watch</a>
+          <a href="#">See More</a>
+        </div>
+
+        <div class="shortcut-link">
+          <p>Your Shortcut</p>
+          <a href=""><img src="img/shortcut-1.png" alt="" />Web Developer</a>
+          <a href=""><img src="img/shortcut-2.png" alt="" />Web Design Course</a>
+          <a href=""><img src="img/shortcut-3.png" alt="" />Full Stack Development</a>
+          <a href=""><img src="img/shortcut-4.png" alt="" />Website Expert</a>
+        </div>
+      </div>
+      <!-- content -->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="img/upload.png" alt="" srcset="" />
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img src="img/member-1.png" alt="" srcset="" />
+            <p>Ustin</p>
+          </div>
+          <div class="story story3">
+            <img src="img/member-2.png" alt="" srcset="" />
+            <p>Dani</p>
+          </div>
+          <div class="story story4">
+            <img src="img/member-3.png" alt="" srcset="" />
+            <p>Tika</p>
+          </div>
+          <div class="story story5">
+            <img src="img/member-4.png" alt="" srcset="" />
+            <p>Faisal</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="img/profile-pic.png" alt="" />
+            <div>
+              <p>Faisal Rahmatdani</p>
+              <small>Public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea rows="3" placeholder="Write your post, Faisal?"></textarea>
+            <div class="add-post-link">
+              <a href="#"><img src="img/live-video.png" /> Live Video</a>
+              <a href="#"><img src="img/photo.png" /> Foto/Video</a>
+              <a href="#"><img src="img/feeling.png" /> Feeling/Activity</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="img/profile-pic.png" alt="" />
+              <div>
+                <p>Faisal Rahmatdani</p>
+                <span>June 24 2021, 22:10 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere minus, veritatis cum dolorum quas aliquid possimus temporibus iste sequi fuga.</p>
+          <img src="img/feed-image-1.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="img/like-blue.png" />1.450</div>
+              <div><img src="img/comments.png" />800</div>
+              <div><img src="img/share.png" />67</div>
+            </div>
+            <div class="post-profile-icon"><img src="img/profile-pic.png" alt="" /> <i class="fas fa-caret-down"></i></div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="img/profile-pic.png" alt="" />
+              <div>
+                <p>Faisal Rahmatdani</p>
+                <span>August 2021, 12:30 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere minus, veritatis cum dolorum quas aliquid possimus temporibus iste sequi fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sequi?
+          </p>
+          <img src="img/feed-image-2.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="img/like.png" />1.150</div>
+              <div><img src="img/comments.png" />100</div>
+              <div><img src="img/share.png" />8</div>
+            </div>
+            <div class="post-profile-icon"><img src="img/profile-pic.png" alt="" /> <i class="fas fa-caret-down"></i></div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="img/profile-pic.png" alt="" />
+              <div>
+                <p>Faisal Rahmatdani</p>
+                <span>July 14 2021, 10:10 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere minus, veritatis cum dolorum quas aliquid possimus temporibus iste sequi fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sequi?
+          </p>
+          <img src="img/feed-image-3.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="img/like.png" />150</div>
+              <div><img src="img/comments.png" />5</div>
+              <div><img src="img/share.png" />10</div>
+            </div>
+            <div class="post-profile-icon"><img src="img/profile-pic.png" alt="" /> <i class="fas fa-caret-down"></i></div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="img/profile-pic.png" alt="" />
+              <div>
+                <p>Faisal Rahmatdani</p>
+                <span>Febuary 21 2021, 00:10 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere minus, veritatis cum dolorum quas aliquid possimus temporibus iste sequi fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sequi?
+          </p>
+          <img src="img/feed-image-4.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="img/like.png" />3.550</div>
+              <div><img src="img/comments.png" />450</div>
+              <div><img src="img/share.png" />760</div>
+            </div>
+            <div class="post-profile-icon"><img src="img/profile-pic.png" alt="" /> <i class="fas fa-caret-down"></i></div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="img/profile-pic.png" alt="" />
+              <div>
+                <p>Faisal Rahmatdani</p>
+                <span>January 7 2021, 13:29 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere minus, veritatis cum dolorum quas aliquid possimus temporibus iste sequi fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sequi?
+          </p>
+          <img src="img/feed-image-5.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="img/like.png" />1.002</div>
+              <div><img src="img/comments.png" />200</div>
+              <div><img src="img/share.png" />40</div>
+            </div>
+            <div class="post-profile-icon"><img src="img/profile-pic.png" alt="" /> <i class="fas fa-caret-down"></i></div>
+          </div>
+        </div>
+
+        <button type="button" class="load-more-botton">Load More</button>
+      </div>
+      <!-- right sidebar -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>July</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media Webinar</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>7</h3>
+            <span>Agustus</span>
+          </div>
+          <div class="right-event">
+            <h4>Birthday</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Sweet Home</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img src="img/advertisement.png" class="sidebar-adds" />
+
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="img/member-1.png" alt="" />
+          </div>
+          <p>Ustin Luvita</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="img/member-2.png" alt="" />
+          </div>
+          <p>Faisal</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="img/member-3.png" alt="" />
+          </div>
+          <p>Tika</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright 2021 - Faisal Rahmatdani</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
